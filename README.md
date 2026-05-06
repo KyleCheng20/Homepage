@@ -1,8 +1,3 @@
-# Webpack Project Template
+# Homepage
 
-A starter template for JS projects using:
-- Webpack 5
-- Development and Production configs
-- HTMLWebpackPlugin
-- Image and font asset support
-- ESLint and Prettier
+This is a project from the Odin curriculum that will demonstrate advanced skills in HTML and CSS with a focus on responsive web design with the use of media queries to allow for my site to be viewed on multiple different screen sizes.
