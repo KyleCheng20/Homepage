@@ -11,9 +11,24 @@ svg {
 }
 
 body {
-
+    height: 100vh;
 }
 
 .social-links {
     display: flex;
+}
+
+/* ---Project Section--- */
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    text-align: center;
 }
