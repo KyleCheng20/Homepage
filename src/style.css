@@ -32,3 +32,8 @@ body {
     border-radius: 12px;
     text-align: center;
 }
+
+/* ---Contact Section--- */
+.contact-left-links {
+    display: flex;
+}
