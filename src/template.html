@@ -12,10 +12,10 @@
             <nav>
                 <h1 class="logo">Portfolio Homepage</h1>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
                 <div class="social-links">
                     <a href="https://github.com/" target="_blank" aria-label="GitHub link">
@@ -46,7 +46,7 @@
             <section class="hero-section" id="home">
                 <div class="hero-content">
                     <div class="hero-left">
-                        <h2 class="hero-name">Hi, I'm Kyle Cheng</h2>
+                        <h2 class="hero-name">Hi, I'm <span>Kyle Cheng</span></h2>
                         <h3 class="hero-title">Full-Stack Developer</h3>
                         <p class="hero-description">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -55,12 +55,20 @@
                             Nunc faucibus, felis vel lacinia vulputate, tellus erat vestibulum nunc, id cursus tortor enim ut ligula. 
                         </p>
                         <div class="hero-btn-container">
-                            <button type="button">My Projects</button>
-                            <button type="button"> Contact Me</button>
+                            <a class="my-projects-btn" href="#projects">My Projects</a>
+                            <a class="contact-me-btn" href="#contact"> Contact Me</a>
                         </div>
                     </div>
                     <div class="hero-right">
-                        <img src="./assets/hero_images/stock_1.jpg" alt="Stock image 1">
+                        <div class="main-img-wrapper">
+                            <img class="main-img" src="./assets/hero_images/stock_1.jpg" alt="Stock image 1">
+                        </div>
+                    
+                        <img class="floating img-two" src="./assets/hero_images/stock_2.jpg" alt="Stock image 2">
+                        <img class="floating img-three" src="./assets/hero_images/stock_3.jpg" alt="Stock image 3">
+                        <img class="floating img-four" src="./assets/hero_images/stock_4.jpg" alt="Stock image 4">
+                        <img class="floating img-five" src="./assets/hero_images/stock_5.jpg" alt="Stock image 5">
+                        <img class="floating img-six" src="./assets/hero_images/stock_6.jpg" alt="Stock image 6">
                     </div>
                 </div>
             </section>
