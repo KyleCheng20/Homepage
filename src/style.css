@@ -32,8 +32,8 @@
     --section-padding: 5rem 2rem;
 }
 
-button {
-    cursor: pointer;
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -823,6 +823,7 @@ form button {
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
+    cursor: pointer;
     font-size: 1.1rem;
     font-weight: 600;
     font-family: raleway, sans-serif;
